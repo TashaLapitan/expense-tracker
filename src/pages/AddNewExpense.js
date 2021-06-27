@@ -37,8 +37,8 @@ function AddNewExpense() {
                 </Form.Group>
 
                 <Form.Group controlId="expenseAmount">
-                    <Form.Label>Expense amount</Form.Label>
-                    <Form.Control required type="number" value={amount} onChange={e => setAmount(parseFloat(e.target.value))} />
+                    <Form.Label>Expense amount, €</Form.Label>
+                    <Form.Control required type="number" step=".01" value={amount} onChange={e => setAmount(parseFloat(e.target.value))} />
                 </Form.Group>
 
                 <Form.Group controlId="expenseDate">

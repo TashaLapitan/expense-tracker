@@ -9,7 +9,7 @@ function ExpenseCard(props) {
             <Card>
                 <Card.Header as="h5">{title}</Card.Header>
                 <Card.Body>
-                    <Card.Title>{amount}</Card.Title>
+                    <Card.Title><span>€</span>{amount.toFixed(2)}</Card.Title>
                     <Card.Text>{date}</Card.Text>
                 </Card.Body>
             </Card>
