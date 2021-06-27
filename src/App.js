@@ -5,8 +5,19 @@ import ExpensesList from './pages/ExpensesList';
 import AddNewExpense from './pages/AddNewExpense';
 import Chart from './pages/Chart';
 import Navbar from './components/Navbar';
+import * as data from './dummy.data.json';
 
 function App() {
+
+  //localStorage.removeItem('expensesDB');
+
+  const existingDB = JSON.parse(localStorage.getItem('expensesDB'));
+  if (!existingDB || existingDB.length === 0) {
+    const allExpenses = data.default;
+    localStorage.setItem('expensesDB', JSON.stringify(allExpenses));
+  }
+
+
   return (
     <Router>
       <div className="App">

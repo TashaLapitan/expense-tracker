@@ -1,6 +1,6 @@
 import React, {useRef, useEffect, useState} from 'react';
 
-import * as data from './../dummy.data.json';
+import service from './../lib/expense.service';
 import ExpenseCard from '../components/ExpenseCard';
 
 function ExpensesList() {
@@ -10,7 +10,7 @@ function ExpensesList() {
     
 
     useEffect(() => {
-        expenses.current = data.default;
+        expenses.current = service.getAllExpenses();
         setIsLoading(false);
     }, [])
 
