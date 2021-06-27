@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "title": "New shoes",
+        "amount": 160.00,
+        "date": "2021-06-02"
+    },
+    {
+        "id": 2,
+        "title": "Mercadona",
+        "amount": 49.50,
+        "date": "2021-06-03"
+    },
+    {
+        "id": 3,
+        "title": "Gas bill",
+        "amount": 35.48,
+        "date": "2021-06-04"
+    },
+    {
+        "id": 4,
+        "title": "Tapas",
+        "amount": 17.50,
+        "date": "2021-06-04"
+    },
+    {
+        "id": 5,
+        "title": "Taxi",
+        "amount": 9.40,
+        "date": "2021-06-05"
+    },
+    {
+        "id": 6,
+        "title": "Amazon",
+        "amount": 15.60,
+        "date": "2021-06-05"
+    },
+    {
+        "id": 7,
+        "title": "Lidl",
+        "amount": 27.30,
+        "date": "2021-06-07"
+    },
+    {
+        "id": 8,
+        "title": "Beers",
+        "amount": 8.00,
+        "date": "2021-06-07"
+    },
+    {
+        "id": 9,
+        "title": "Theater x 2",
+        "amount": 32.00,
+        "date": "2021-06-07"
+    },
+    {
+        "id": 10,
+        "title": "Taxi",
+        "amount": 12.50,
+        "date": "2021-06-07"
+    },
+    {
+        "id": 11,
+        "title": "Spotify",
+        "amount": 16.50,
+        "date": "2021-06-08"
+    },
+    {
+        "id": 12,
+        "title": "Fruteria",
+        "amount": 7.63,
+        "date": "2021-06-09"
+    },
+    {
+        "id": 13,
+        "title": "Pizza",
+        "amount": 22.20,
+        "date": "2021-06-10"
+    },
+    {
+        "id": 14,
+        "title": "Mercadona",
+        "amount": 45.20,
+        "date": "2021-06-12"
+    },
+    {
+        "id": 15,
+        "title": "Plumber",
+        "amount": 35.00,
+        "date": "2021-06-13"
+    },
+    {
+        "id": 16,
+        "title": "Taxi",
+        "amount": 7.63,
+        "date": "2021-06-15"
+    },
+    {
+        "id": 17,
+        "title": "Concert tickets",
+        "amount": 7.63,
+        "date": "2021-06-16"
+    },
+    {
+        "id": 18,
+        "title": "Taxi",
+        "amount": 9.63,
+        "date": "2021-06-17"
+    },
+    {
+        "id": 19,
+        "title": "Water bill",
+        "amount": 64.56,
+        "date": "2021-06-18"
+    },
+    {
+        "id": 20,
+        "title": "Coffee",
+        "amount": 4.63,
+        "date": "2021-06-19"
+    },
+    {
+        "id": 21,
+        "title": "Tickets to Rome",
+        "amount": 65.00,
+        "date": "2021-06-20"
+    },
+    {
+        "id": 22,
+        "title": "Beers",
+        "amount": 12.00,
+        "date": "2021-06-20"
+    },
+    {
+        "id": 23,
+        "title": "Mercadona",
+        "amount": 25.70,
+        "date": "2021-06-22"
+    },
+    {
+        "id": 24,
+        "title": "Coffee",
+        "amount": 5.40,
+        "date": "2021-06-23"
+    },
+    {
+        "id": 25,
+        "title": "Mango",
+        "amount": 38.99,
+        "date": "2021-06-23"
+    },
+    {
+        "id": 26,
+        "title": "Vet",
+        "amount": 60.00,
+        "date": "2021-06-23"
+    }
+]
