@@ -1,0 +1,21 @@
+h1 {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.chart-container {
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.expense-card {
+    margin: 15px 0;
+}
+
+.expense-input-group {
+    margin: 15px 0;
+}
+
+.expense-form-btn {
+    margin-right: 5px
+}

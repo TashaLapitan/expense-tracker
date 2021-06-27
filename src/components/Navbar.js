@@ -1,15 +1,19 @@
-import React from 'react'
-import {Link} from 'react-router-dom';
+import React from 'react';
+import {Nav} from 'react-bootstrap';
 
 function Navbar() {
     return (
-        <div>
-            <ul>
-                <li><Link to="/">All Expenses</Link></li>
-                <li><Link to="/new-expense">Add Expense</Link></li>
-                <li><Link to="/chart">Overview</Link></li>
-            </ul>
-        </div>
+        <Nav variant="tabs" style={{maringBottom: "50px"}}>
+            <Nav.Item>
+                <Nav.Link href="/">All Expenses</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+                <Nav.Link href="/new-expense">Add Expense</Nav.Link>                
+            </Nav.Item>
+            <Nav.Item>
+                <Nav.Link href="/chart">Overview</Nav.Link>
+            </Nav.Item>
+        </Nav>
     )
 }
 

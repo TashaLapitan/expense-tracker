@@ -6,6 +6,7 @@ import AddNewExpense from './pages/AddNewExpense';
 import Chart from './pages/Chart';
 import Navbar from './components/Navbar';
 import * as data from './dummy.data.json';
+import './App.css';
 
 function App() {
 

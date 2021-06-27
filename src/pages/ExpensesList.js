@@ -1,7 +1,9 @@
 import React, {useRef, useEffect, useState} from 'react';
+import {Container} from 'react-bootstrap';
 
 import service from './../lib/expense.service';
 import ExpenseCard from '../components/ExpenseCard';
+import LoadingPage from '../components/LoadingPage';
 
 function ExpensesList() {
 
@@ -15,15 +17,15 @@ function ExpensesList() {
     }, [])
 
     if (isLoading) {
-        return <div><h1>Page loading, please wait...</h1></div>
+        return <LoadingPage/>
     };
 
     return (
-        <div>
+        <Container className="w-75 p-3">
             <h1>My Expenses</h1>
             {expenses.current.map(ex => {return <ExpenseCard key={ex.id} expense={ex}/>})}            
-        </div>
+        </Container>
     )
 }
 
-export default ExpensesList
+export default ExpensesList;

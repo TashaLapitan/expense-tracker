@@ -7,10 +7,11 @@ const service = {
         localStorage.setItem('expensesDB', JSON.stringify(allExpenses));
     },
 
-    getAllExpenses: () => {
+    getAllExpenses: (component='any') => {
         const allExpenses = JSON.parse(localStorage.getItem('expensesDB'));
-        allExpenses.reverse();
-        return allExpenses === null ? [] : allExpenses;
+        return component === 'any' 
+        ? allExpenses.reverse()
+        : allExpenses.sort((a,b) => {return new Date(a.date) - new Date(b.date)});
     },
 
     getUniqueDates: (allExpenses) => {
@@ -35,6 +36,12 @@ const service = {
             expensesPerDate.push(daySum);
         })   
         return expensesPerDate;     
+    },
+
+    prettifyDate: (date, component='any') => {
+        const utcDate = new Date(date);
+        const utcStr = utcDate.toUTCString();
+        return component === 'chart' ? utcStr.slice(5,11) : utcStr.slice(5,16);
     }
 
 };
